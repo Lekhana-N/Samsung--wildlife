@@ -40,15 +40,15 @@ BLYNK_AUTH = "YY6YDeaWjR0sdeoDSb_Q-xcpr8eTt0ID"
 blynk = blynklib.Blynk(BLYNK_AUTH)
 
 # ================= EMAIL =================
-EMAIL_SENDER = "lekhana.n15@gmail.com"
+EMAIL_SENDER = "abc@gmail.com"
 EMAIL_PASSWORD = "jyqnjfbokzealohm"
-EMAIL_RECEIVER = "npragathi26@gmail.com"
+EMAIL_RECEIVER = "nmnq6@gmail.com"
 
 # ================= WHATSAPP (TWILIO) =================
 TWILIO_SID = "ACeea924457a61b1a5a8c79bb3a2976b23"
 TWILIO_AUTH = "8ab317baa1168c4efd19195efa6b6767"
 WHATSAPP_FROM = "whatsapp:+14155238886"
-WHATSAPP_TO = "whatsapp:+918310855454"
+WHATSAPP_TO = "whatsapp:+911234567890"
 
 client = Client(TWILIO_SID, TWILIO_AUTH)
 
@@ -132,5 +132,6 @@ while True:
             blynk.virtual_write(1, humidity)
     except:
         pass
+
 
     time.sleep(0.5)
